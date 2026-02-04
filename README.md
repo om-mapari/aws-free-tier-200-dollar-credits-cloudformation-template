@@ -10,27 +10,34 @@ Automates 4 out of 5 credit activities ($80). Complete the 5th (Bedrock) manuall
 
 ## 📑 Table of Contents
 
-- [What You'll Get](#-what-youll-get)
-- [Prerequisites](#-prerequisites)
-- [Quick Start Guide](#-quick-start-guide)
-  - [Step 1: Create AWS Account](#step-1-create-aws-account-if-needed)
-  - [Step 2: Deploy CloudFormation Template](#step-2-deploy-cloudformation-template)
-  - [Step 3: Confirm Email Subscription](#step-3-confirm-email-subscription)
-  - [Step 4: Verify Activities Completed](#step-4-verify-activities-completed)
-  - [Step 5: Complete Bedrock Activity](#step-5-complete-bedrock-activity-2-minutes)
-  - [Step 6: Verify Credits Earned](#step-6-verify-credits-earned)
-  - [Step 7: Delete Resources](#step-7-delete-resources-important)
-  - [Step 8: Keep Billing Protection](#step-8-keep-billing-protection-recommended)
-- [Cost Breakdown](#-cost-breakdown)
-- [Billing Protection](#-billing-protection)
-- [Repository Files](#-repository-files)
-- [Troubleshooting](#-troubleshooting)
-- [What You'll Learn](#-what-youll-learn)
-- [Important Notes](#-important-notes)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Pro Tips](#-pro-tips)
-- [Support](#-support)
+- [🎁 AWS Free Credits Automation - Earn $100 in 15 Minutes](#-aws-free-credits-automation---earn-100-in-15-minutes)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [🎯 What You'll Get](#-what-youll-get)
+  - [📋 Prerequisites](#-prerequisites)
+  - [🚀 Quick Start Guide](#-quick-start-guide)
+    - [Step 1: Create AWS Account (if needed)](#step-1-create-aws-account-if-needed)
+    - [Step 2: Deploy CloudFormation Template](#step-2-deploy-cloudformation-template)
+    - [Step 3: Confirm Email Subscription](#step-3-confirm-email-subscription)
+    - [Step 4: Verify Activities Completed](#step-4-verify-activities-completed)
+    - [Step 5: Complete Bedrock Activity (2 minutes)](#step-5-complete-bedrock-activity-2-minutes)
+    - [Step 6: Verify Credits Earned](#step-6-verify-credits-earned)
+    - [Step 7: Delete Resources (Important!)](#step-7-delete-resources-important)
+    - [Step 8: Keep Billing Protection (Recommended!)](#step-8-keep-billing-protection-recommended)
+  - [💰 Cost Breakdown](#-cost-breakdown)
+  - [🛡️ Billing Protection](#️-billing-protection)
+  - [📁 Repository Files](#-repository-files)
+  - [🔧 Troubleshooting](#-troubleshooting)
+    - [Stack creation fails](#stack-creation-fails)
+    - [Activities not showing as complete](#activities-not-showing-as-complete)
+    - [Billing alarm not working](#billing-alarm-not-working)
+    - [RDS creation takes long](#rds-creation-takes-long)
+  - [🎓 What You'll Learn](#-what-youll-learn)
+  - [⚠️ Important Notes](#️-important-notes)
+  - [🤝 Contributing](#-contributing)
+  - [📄 License](#-license)
+  - [💡 Pro Tips](#-pro-tips)
+  - [🙏 Acknowledgments](#-acknowledgments)
+  - [📞 Support](#-support)
 
 ---
 
@@ -197,7 +204,7 @@ You should see:
 3. You should see: **"Activities completed: 5 of 5"**
 4. **"Total credits earned: $100 of $100 USD"**
 
-Credits appear within **24-48 hours** after completing activities.
+Credits appear within **10 minutes** after completing all activities.
 
 ### Step 7: Delete Resources (Important!)
 
@@ -252,36 +259,6 @@ Or in AWS Console:
 
 ---
 
-## 💰 Cost Breakdown
-
-| Resource | Monthly Cost | Free Tier |
-|----------|--------------|-----------|
-| EC2 t3.micro | ~$7.50 | 750 hrs/month (12 months) |
-| RDS db.t3.micro | ~$12.24 | 750 hrs/month (12 months) |
-| Lambda | ~$0.00 | 1M requests/month (always) |
-| AWS Budgets | $0.00 | First 2 budgets free |
-| CloudWatch Alarm | $0.00 | 10 alarms free |
-
-**Total if within Free Tier:** $0.00  
-**Total if left running:** ~$20/month
-
-**Your $0.10 billing alarm protects you!**
-
----
-
-## 🛡️ Billing Protection
-
-The template includes multiple layers of protection:
-
-1. **CloudWatch Billing Alarm** - Alerts at $0.10 spend
-2. **AWS Budget** - Monthly budget with 80% and 100% alerts
-3. **SNS Email Notifications** - Instant alerts to your email
-4. **DeletionPolicy: Delete** - Clean removal of resources
-
-**For Free Plan users:** No charges for 6 months!
-
----
-
 ## 📁 Repository Files
 
 ```
@@ -322,7 +299,7 @@ aws-free-tier-100-dollar-credits-cloudformation-template/
 ### Activities not showing as complete
 
 **Issue:** Activities still show "Not started"  
-**Solution:** Wait 24-48 hours for AWS to process. Resources must be running.
+**Solution:** Wait 10-15 minutes for AWS to process. Resources must be running and active.
 
 **Issue:** Lambda not marked complete  
 **Solution:** Visit the Lambda Function URL (check CloudFormation Outputs)

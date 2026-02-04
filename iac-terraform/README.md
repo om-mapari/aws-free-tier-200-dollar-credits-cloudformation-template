@@ -84,7 +84,7 @@ Copy the Lambda Function URL and test it in your browser.
 1. Go to AWS Console Home
 2. Check "Explore AWS" widget
 3. Should show: 5 of 5 activities completed
-4. Credits appear within 24-48 hours
+4. Credits appear within 10 minutes
 
 ### 10. Destroy Resources
 
