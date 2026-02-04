@@ -121,8 +121,8 @@ aws configure
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/aws-credits-automation.git
-cd aws-credits-automation
+git clone https://github.com/om-mapari/aws-free-tier-100-dollar-credits-cloudformation-template.git
+cd aws-free-tier-100-dollar-credits-cloudformation-template
 
 # Deploy the stack
 aws cloudformation create-stack \
@@ -283,7 +283,7 @@ The template includes multiple layers of protection:
 ## 📁 Repository Files
 
 ```
-aws-credits-automation/
+aws-free-tier-100-dollar-credits-cloudformation-template/
 ├── aws-credits-activities.yaml    # CloudFormation template (all 4 activities)
 ├── billing-alarm.yaml             # Budget protection only
 ├── deploy.sh                      # CloudFormation deployment script
@@ -405,8 +405,8 @@ This project helps new AWS users quickly earn their $100 in credits without manu
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues](https://github.com/YOUR-USERNAME/aws-credits-automation/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/YOUR-USERNAME/aws-credits-automation/discussions)
+- **Issues:** [GitHub Issues](https://github.com/om-mapari/aws-free-tier-100-dollar-credits-cloudformation-template/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/om-mapari/aws-free-tier-100-dollar-credits-cloudformation-template/discussions)
 - **AWS Support:** [AWS Support Center](https://console.aws.amazon.com/support)
 
 ---
