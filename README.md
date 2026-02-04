@@ -44,7 +44,9 @@ Automates 4 out of 5 credit activities ($80). Complete the 5th (Bedrock) manuall
 | Create RDS Database | $20 | ✅ Yes |
 | Use Bedrock AI Model | $20 | ⚠️ Manual (2 min) |
 
-**Total: $100 in AWS credits** valid for 12 months!
+**Total: $100 in AWS credits**
+- **Free Plan**: Valid for 6 months or until exhausted
+- **Paid Plan**: Valid for 12 months from sign-up
 
 ---
 
@@ -355,8 +357,9 @@ By using this template, you'll understand:
 
 ## ⚠️ Important Notes
 
-- **Credits expire:** 12 months from account creation
-- **Free Plan expires:** 6 months from account creation
+- **Free Plan credits expire:** 6 months from account creation OR when exhausted
+- **Paid Plan credits expire:** 12 months from account creation (if you upgrade)
+- **Free Plan account expires:** 6 months from account creation
 - **One account only:** Credits available for one AWS account per person
 - **Not for production:** This is for learning and earning credits
 - **Monitor costs:** Always check your AWS billing dashboard
@@ -390,7 +393,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 3. **Delete stack immediately** after credits appear
 4. **Keep budget template** (`billing-alarm.yaml`) for ongoing protection
 5. **Check credits regularly** in AWS Billing → Credits
-6. **Use credits wisely** - they're valid for 12 months
+6. **Use credits wisely** - Free Plan: 6 months, Paid Plan: 12 months
 7. **Share this repo** to help others earn credits too!
 
 ---
