@@ -1,0 +1,21 @@
+# AWS
+.aws/
+*.pem
+*.key
+
+# CloudFormation
+*.zip
+packaged-template.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
